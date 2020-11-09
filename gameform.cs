@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace gameproject
 {
-    public partial class Form1 : Form
+    public partial class game : Form
     {
-        public Form1()
+        public game()
         {
             InitializeComponent();
+        }
+
+        private void btn_load_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void game_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
